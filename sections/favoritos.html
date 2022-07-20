@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500;600;700&family=Annie+Use+Your+Telescope&family=Comfortaa:wght@500&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Favoritos</title>
 </head>
 
@@ -46,18 +47,18 @@
     </header>
     <main class="centrarMain">
         <section>
-            <h1>Mis favoritos en Balbina's closet</h1>
+            <h1 data-aos="flip-left">Mis favoritos en Balbina's closet</h1>
             <div>
                 <h2>Nombre del producto</h2>
                 <img src="../images/abrigoinvierno.jpg" alt="abrigo colección invierno">
                 <p>Aquí se ingresa la descripción</p>
             </div>
             <div>
-                <h2>Precio del producto</h2>
+                <h2 data-aos="fade-up" data-aos-duration="3000">Precio del producto</h2>
                 <p>Aquí se ingresa el precio</p>
             </div>
             <div>
-                <h2>Stock/Inventario</h2>
+                <h2 data-aos="fade-up" data-aos-duration="3000">Stock/Inventario</h2>
                 <p>Aquí se ingresa el stock disponible</p>
             </div>
         </section>
@@ -69,6 +70,11 @@
             <img class="icon" src="../images/pinteresticono.png" alt="Pinterest">
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
