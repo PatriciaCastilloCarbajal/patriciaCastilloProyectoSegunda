@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500;600;700&family=Annie+Use+Your+Telescope&family=Comfortaa:wght@500&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Contacto</title>
 </head>
 
@@ -47,9 +48,9 @@
     <main class="centrarMain">
         <H1>Contacto</H1>
         <section>
-            <h1>¡Ponte en contacto con nosotros!</h1>
+            <h1 data-aos="zoom-in">¡Ponte en contacto con nosotros!</h1>
         </section>
-        <section>
+        <section data-aos="fade-up" data-aos-duration="3000">
             <article class="primerTexto">
                 <form action="#">
                     <label for="nombre_apellido">Ingresa tu nombre y apellido</label>
@@ -78,6 +79,11 @@
             <img class="icon" src="../images/pinteresticono.png" alt="Pinterest">
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
