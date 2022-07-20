@@ -153,6 +153,10 @@ footer .icon {
   object-fit: cover;
 }
 
+.grillaPrincipal img:hover {
+  transform: scale(1.5);
+}
+
 .seccionColeccionesIndex {
   text-align: center;
   padding: 3rem 0;
