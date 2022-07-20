@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500;600;700&family=Annie+Use+Your+Telescope&family=Comfortaa:wght@500&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Carrito de compras</title>
 </head>
 
@@ -45,8 +46,8 @@
         </nav>
     </header>
     <main class="centrarMain">
-        <h1>Aún no hay productos en tu carrito de compras :/</h1>
-        <p>Medios de pago disponibles:</p>
+        <h1 data-aos="zoom-in">Aún no hay productos en tu carrito de compras :/</h1>
+        <p data-aos="fade-up" data-aos-duration="3000">Medios de pago disponibles:</p>
     </main>
     <footer>
         <div class="redes">
@@ -55,6 +56,11 @@
             <img class="icon" src="../images/pinteresticono.png" alt="Pinterest">
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
