@@ -142,6 +142,10 @@ footer .icon {
   margin-bottom: 1rem;
 }
 
+.centrarMain img:hover {
+  transform: scale(1.5);
+}
+
 .grillaPrincipal {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
